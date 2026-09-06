@@ -2,7 +2,7 @@
   Aayan Chowhan — GitHub Profile README
   Visual system: void black / ultraviolet / electric violet / soft cyan
 -->
-
+<!-- This is a comment that will not render -->   
 <p align="center">
   <img src="./assets/banner.svg" width="100%" alt="Cyberpunk galaxy banner with a futuristic anime-inspired figure" />
 </p>
