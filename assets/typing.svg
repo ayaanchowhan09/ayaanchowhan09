@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 52" role="img" aria-labelledby="title desc">
+  <title id="title">Aayan's developer interests</title>
+  <desc id="desc">Animated typing text cycling through Software Developer, Python Backend Explorer, AI and Machine Learning, and Building Real-World Projects.</desc>
+  <defs>
+    <linearGradient id="text" x1="0" x2="1">
+      <stop stop-color="#22d3ee"/><stop offset=".46" stop-color="#a855f7"/><stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="c1"><rect x="180" y="6" height="40" width="0"><animate attributeName="width" values="0;540;540;0;0" keyTimes="0;.07;.20;.24;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="180" y="6" height="40" width="0"><animate attributeName="width" values="0;0;540;540;0;0" keyTimes="0;.25;.32;.45;.49;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="180" y="6" height="40" width="0"><animate attributeName="width" values="0;0;540;540;0;0" keyTimes="0;.50;.57;.70;.74;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="180" y="6" height="40" width="0"><animate attributeName="width" values="0;0;540;540;0" keyTimes="0;.75;.82;.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <style>
+      .line{font:600 23px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:1.2px}
+      .cursor{animation:blink .72s steps(1) infinite}
+      @keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}
+      @media (prefers-reduced-motion:reduce){.cursor{display:none}}
+    </style>
+  </defs>
+  <g fill="url(#text)" text-anchor="middle" filter="url(#glow)">
+    <text class="line" x="450" y="34" clip-path="url(#c1)">Software Developer</text>
+    <text class="line" x="450" y="34" clip-path="url(#c2)">Python Backend Explorer</text>
+    <text class="line" x="450" y="34" clip-path="url(#c3)">AI &amp; Machine Learning</text>
+    <text class="line" x="450" y="34" clip-path="url(#c4)">Building Real-World Projects</text>
+  </g>
+  <g class="cursor" fill="#c084fc">
+    <rect x="574" y="13" width="3" height="25"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.24;.25;1" dur="16s" repeatCount="indefinite"/></rect>
+    <rect x="620" y="13" width="3" height="25"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.25;.26;.49;.50;1" dur="16s" repeatCount="indefinite"/></rect>
+    <rect x="615" y="13" width="3" height="25"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.50;.51;.74;.75;1" dur="16s" repeatCount="indefinite"/></rect>
+    <rect x="655" y="13" width="3" height="25"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.75;.76;.99;1" dur="16s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>

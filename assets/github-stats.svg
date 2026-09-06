@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" role="img" aria-labelledby="title">
+  <title id="title">GitHub stats placeholder</title>
+  <defs><linearGradient id="b" x1="0" x2="1"><stop stop-color="#241139"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
+  <rect x="1" y="1" width="493" height="193" rx="12" fill="#0d0517" stroke="url(#b)" stroke-width="2"/>
+  <text x="28" y="45" fill="#c084fc" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Aayan's GitHub Stats</text>
+  <text x="28" y="94" fill="#e9d5ff" font-family="ui-monospace,Consolas,monospace" font-size="14">Run “Update Profile Stats” once.</text>
+  <text x="28" y="122" fill="#806b94" font-family="ui-monospace,Consolas,monospace" font-size="12">This card will be replaced with live data.</text>
+  <path d="M28 154H467" stroke="#6d28d9" stroke-dasharray="42 8"/>
+</svg>
+

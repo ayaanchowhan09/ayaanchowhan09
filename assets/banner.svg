@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Aayan Chowhan cyberpunk galaxy banner</title>
+  <desc id="desc">A deep black and purple space scene with neon interface elements and a futuristic anime-inspired silhouette.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030106"/>
+      <stop offset="0.48" stop-color="#0b0614"/>
+      <stop offset="1" stop-color="#120625"/>
+    </linearGradient>
+    <radialGradient id="nebula" cx="72%" cy="38%" r="58%">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".35"/>
+      <stop offset=".35" stop-color="#6d28d9" stop-opacity=".17"/>
+      <stop offset="1" stop-color="#050108" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moon" cx="42%" cy="38%" r="62%">
+      <stop offset="0" stop-color="#efe7ff"/>
+      <stop offset=".52" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#4c1d95"/>
+    </radialGradient>
+    <linearGradient id="neon" x1="0" x2="1">
+      <stop stop-color="#22d3ee"/>
+      <stop offset=".5" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3.5H4" stroke="#fff" stroke-opacity=".025"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="320" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#nebula)"/>
+    <ellipse cx="935" cy="180" rx="265" ry="170" fill="#7c3aed" opacity=".08" filter="url(#softGlow)"/>
+
+    <g fill="#ddd6fe">
+      <circle cx="73" cy="51" r="1.4"><animate attributeName="opacity" values=".2;1;.2" dur="3.7s" repeatCount="indefinite"/></circle>
+      <circle cx="165" cy="84" r="1"><animate attributeName="opacity" values="1;.2;1" dur="4.6s" repeatCount="indefinite"/></circle>
+      <circle cx="276" cy="36" r="1.2"><animate attributeName="opacity" values=".3;1;.3" dur="5.2s" repeatCount="indefinite"/></circle>
+      <circle cx="405" cy="105" r="1.5"><animate attributeName="opacity" values="1;.15;1" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="519" cy="57" r="1"><animate attributeName="opacity" values=".2;.9;.2" dur="4.1s" repeatCount="indefinite"/></circle>
+      <circle cx="626" cy="121" r="1.3"><animate attributeName="opacity" values=".9;.2;.9" dur="5.5s" repeatCount="indefinite"/></circle>
+      <circle cx="731" cy="39" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="3.2s" repeatCount="indefinite"/></circle>
+      <circle cx="838" cy="86" r="1.5"><animate attributeName="opacity" values="1;.25;1" dur="4.8s" repeatCount="indefinite"/></circle>
+      <circle cx="1075" cy="49" r="1.2"><animate attributeName="opacity" values=".25;1;.25" dur="4.3s" repeatCount="indefinite"/></circle>
+      <circle cx="1148" cy="132" r="1"><animate attributeName="opacity" values="1;.2;1" dur="5.1s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <g opacity=".32" stroke="#8b5cf6" fill="none">
+      <path d="M0 265H1200"/>
+      <path d="M0 286H1200"/>
+      <path d="M0 305H1200"/>
+      <path d="M600 252L375 320M600 252L475 320M600 252L550 320M600 252L650 320M600 252L725 320M600 252L825 320"/>
+    </g>
+
+    <g opacity=".8">
+      <path d="M66 74H310" stroke="#7c3aed" stroke-width="2"/>
+      <path d="M66 74h30" stroke="#22d3ee" stroke-width="2" filter="url(#glow)"/>
+      <text x="66" y="110" fill="#c4b5fd" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="3">BUILD // LEARN // SHIP</text>
+      <text x="66" y="145" fill="#6d5a82" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2">PYTHON · BACKEND · INTELLIGENCE</text>
+      <rect x="66" y="171" width="360" height="64" rx="8" fill="#0d0715" stroke="#6d28d9" stroke-opacity=".72"/>
+      <circle cx="86" cy="191" r="4" fill="#22d3ee" filter="url(#glow)"/>
+      <text x="101" y="196" fill="#e9d5ff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">IDEAS → SYSTEMS → SOFTWARE</text>
+      <path d="M86 215H389" stroke="url(#neon)" stroke-width="2" stroke-dasharray="52 12">
+        <animate attributeName="stroke-dashoffset" values="0;-64" dur="3.5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <g transform="translate(805 18)">
+      <circle cx="145" cy="130" r="96" fill="url(#moon)" opacity=".9"/>
+      <circle cx="145" cy="130" r="111" fill="none" stroke="#c084fc" stroke-opacity=".22"/>
+      <path d="M41 130a104 104 0 0 1 208 0" fill="none" stroke="#22d3ee" stroke-opacity=".55" stroke-width="2" stroke-dasharray="4 12">
+        <animateTransform attributeName="transform" type="rotate" from="0 145 130" to="360 145 130" dur="28s" repeatCount="indefinite"/>
+      </path>
+
+      <!-- restrained anime-inspired silhouette -->
+      <path d="M137 72c-20 2-34 15-38 36-5 27 4 44 18 55l-4 24-31 18c-18 10-31 31-34 63h194c-3-32-16-53-34-63l-31-18-4-24c14-11 23-28 18-55-4-21-18-34-38-36z" fill="#09050f" stroke="url(#neon)" stroke-width="2.2" filter="url(#glow)"/>
+      <path d="M97 116c1-32 16-52 48-52 21 0 39 13 47 34-11-5-20-8-29-9-14 13-34 22-66 27z" fill="#160b25" stroke="#c084fc" stroke-width="1.5"/>
+      <path d="M113 131l13 2M164 133l13-2" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" filter="url(#glow)"/>
+      <path d="M118 189c15 14 39 14 54 0" fill="none" stroke="#7c3aed"/>
+      <path d="M71 268c22-37 43-54 74-54s52 17 74 54" fill="#0e0718" stroke="#7c3aed"/>
+    </g>
+
+    <g fill="none" stroke="#a855f7" stroke-opacity=".55">
+      <path d="M1165 32h-44M1165 32v44M35 288h44M35 288v-44"/>
+    </g>
+    <rect width="1200" height="320" fill="url(#scan)"/>
+    <rect x="1" y="1" width="1198" height="318" rx="23" fill="none" stroke="url(#neon)" stroke-opacity=".5" stroke-width="2"/>
+  </g>
+</svg>
+

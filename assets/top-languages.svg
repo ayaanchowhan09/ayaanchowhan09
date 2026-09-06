@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" role="img" aria-labelledby="title">
+  <title id="title">Top languages placeholder</title>
+  <defs><linearGradient id="b" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#a855f7"/></linearGradient></defs>
+  <rect x="1" y="1" width="493" height="193" rx="12" fill="#0d0517" stroke="url(#b)" stroke-width="2"/>
+  <text x="28" y="45" fill="#c084fc" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Most-Used Languages</text>
+  <text x="28" y="94" fill="#e9d5ff" font-family="ui-monospace,Consolas,monospace" font-size="14">Waiting for the first workflow run.</text>
+  <rect x="28" y="132" width="439" height="10" rx="5" fill="#20142d"/>
+  <rect x="28" y="132" width="262" height="10" rx="5" fill="url(#b)"/>
+</svg>
+
